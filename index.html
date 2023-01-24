@@ -11,15 +11,36 @@
     <title>Nina's site</title> 
 </head>
 <body>
-    <header>
+    <header><nav></nav>
         <h1>Hello and welcome!</h1>
     </header>
-    <article>
-        <h3>I am Nina Laaksonen, great to meet you.</h3>
-        <p>I'm currently in middle of a career change and more I learn, more I love the field. I have graduated software developer and am currently studying ICT Engineering course in TAMK.</p>
-        <img src="./images/mun_kuva.PNG" alt="My picture"/>
-        <p>I also have another page: <a href="https://nintsunsivut.wordpress.com">Another page</a></a></p>
-        <p>Oh btw: this is an excersize we are making on the course: IoT and Web Development 2023 </p>
-    </article>
+    <div id="grid-container">
+        <div id="asidegrid-container">
+            <aside id="aside">
+                <p class="aside-item">Python</p>
+                <p class="aside-item">4/5</p>
+                <p class="aside-item">C++</p>
+                <p class="aside-item">2/5</p>
+                <p class="aside-item">PHP</p>
+                <p class="aside-item">3/5</p>
+            </aside>
+        </div>
+        <article id="main-grid">
+            <h3>I am Nina Laaksonen, great to meet you.</h3>
+            <p>I'm currently in middle of a career change and more I learn, more I love the field. I have graduated software developer and am currently studying ICT Engineering course in TAMK.</p>
+            <img src="./images/mun_kuva.PNG" alt="My picture"/>
+            <div id="links">
+                <p><a class="link" href="https://github.com/Nintsu87">Github</a></p>
+                <p><a class="link" href="https://www.linkedin.com/in/nina-laaksonen">Linkedin</a></p>
+                <p><a class="link" href="https://nintsunsivut.wordpress.com">My site</a></p>
+            </div>
+            
+        </article>
+        <aside id="filler">
+            <!--This is just to make it look neet.-->
+        </aside>
+        
+    </div>
+    <footer><p>Partical task for IoT and Web Development 2023 | Nina Laaksonen </p></footer>
 </body>
 </html>

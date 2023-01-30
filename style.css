@@ -1,23 +1,30 @@
 body {
     font-family: 'Raleway', sans-serif;
     text-align: center;
-    background: linear-gradient(to right, white, antiquewhite) ;
+    
+    background: linear-gradient(to right,#666fd6, #34b579);
 }
 h1 {
-    text-shadow: 2px 2px rgba(165, 42, 42, 0.655);
+    text-shadow: 1px 1px #141c72;
 }
 img {
     border-radius: 50%;
-    border: 5px rgba(165, 42, 42, 0.655) solid;
+    border: 5px #434fdb solid;
 }
 footer {
     position:fixed;
     bottom: 0;
     width: 100%;
-    
+
 }
 .link {
-    color: rgba(165, 42, 42, 0.655);
+    color: #141c72;
+}
+.link:hover {
+    color: #070b31
+}
+.white-txt {
+    color: white;
 }
 #aside {
     display: grid;
